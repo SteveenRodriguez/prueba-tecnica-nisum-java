@@ -47,6 +47,11 @@ public class UserServiceImpl implements UserService {
                     .mensaje(ErrorMessages.REGEX_PASSWORD)
                     .build();
         }
+        if(requestDto.getName() == null) {
+            return ResponseDto.builder()
+                    .mensaje(ErrorMessages.BLANK_NAME)
+                    .build();
+        }
         Optional<User> userValidate = userRepository.findByEmail(requestDto.getEmail());
         if (userValidate.isPresent()) {
             return ResponseDto.builder()

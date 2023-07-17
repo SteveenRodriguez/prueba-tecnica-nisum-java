@@ -33,4 +33,11 @@ public class ExceptionUserController {
                 .mensaje(ex.getMessage())
                 .build(), HttpStatus.BAD_REQUEST);
     }
+
+    @ExceptionHandler(NullPointerException.class)
+    public ResponseEntity<ResponseDto> handleNullPointerException(NullPointerException ex) {
+        return new ResponseEntity<>(ResponseDto.builder()
+                .mensaje(ex.getMessage())
+                .build(), HttpStatus.INTERNAL_SERVER_ERROR);
+    }
 }
