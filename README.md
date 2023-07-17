@@ -47,3 +47,6 @@ El Body a enviar es el siguiente:
     ]
 }
 ```
+### Colección para probar en Postman
+
+> [Descargar - clic](https://drive.google.com/file/d/1AFnnkb5jB239cDhxWNPFwvRpicfsZITg/view?usp=sharing)
