@@ -20,6 +20,6 @@ public class ApiUsersApplication {
 				.info(new Info()
 						.title("Prueba Nisum - Api Create User")
 						.version("1.0.0")
-						.description("Prueba técnica para Nisum Latam"));
+						.description("Test de prueba técnica de nisum"));
 	}
 }
