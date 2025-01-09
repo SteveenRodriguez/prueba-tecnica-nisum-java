@@ -2,7 +2,7 @@
 Api Restful para crear usuarios
 ### Pasos para utilizar la api
 #### Paso 1
-Clonar repositorio
+Clonar repositorio.
 > [urlDelRepository](https://github.com/SteveenRodriguez/prueba-tecnica-nisum-java.git)
 
 #### Paso 2
